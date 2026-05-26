@@ -44,16 +44,16 @@ python -m pip install langchain langchain-community langchain-core
 
 ## 🏃‍♂️ Ejecución de Scripts
 
-Para ejecutar el script `ex1.py` ubicado dentro de la carpeta `agents/`, puedes hacerlo de dos formas:
+Para ejecutar el script `ex1.py` ubicado dentro de la carpeta `agent/`, puedes hacerlo de dos formas:
 
 ### Método Directo (Recomendado)
 No requiere activar el entorno virtual previamente en la terminal:
 ```powershell
-.\env1\Scripts\python agents/ex1.py
+.\env1\Scripts\python agent/ex1.py
 ```
 
 ### Método con Entorno Activo
 Si ya tienes el entorno activo (`env1` visible en la consola):
 ```powershell
-python agents/ex1.py
+python agent/ex1.py
 ```
