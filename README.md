@@ -116,6 +116,23 @@ para su análisis y depuración.
 
 ---
 
+## 🔀 Introducción Breve a LangGraph
+
+LangGraph es una librería para construir flujos de agentes y aplicaciones de IA basadas en estados.
+Permite modelar el proceso como un grafo de nodos (pasos) y transiciones (decisiones),
+ideal para casos donde necesitas control explícito del flujo, ciclos y lógica condicional.
+
+### ¿Cuándo conviene usarlo?
+
+* Cuando un agente debe ejecutar varios pasos con validaciones intermedias.
+* Cuando necesitas bucles de razonamiento (planificar -> actuar -> revisar).
+* Cuando quieres separar claramente cada etapa: recuperación, herramientas, evaluación y respuesta.
+
+LangChain y LangGraph se complementan: LangChain facilita cadenas y componentes,
+mientras que LangGraph te da una orquestación más robusta para flujos complejos.
+
+---
+
 ## 🏃‍♂️ Ejecución de Scripts
 
 Para ejecutar el script `ex1.py` ubicado dentro de la carpeta `agent/`, puedes hacerlo de dos formas:
