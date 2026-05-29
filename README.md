@@ -77,6 +77,45 @@ ollama pull nomic-embed-text
 
 ---
 
+## 📈 Monitorización Básica con LangSmith
+
+LangSmith es la plataforma de observabilidad de LangChain para aplicaciones de IA.
+Te permite registrar trazas (traces), inspeccionar ejecuciones paso a paso y detectar errores,
+latencia o prompts problemáticos en tus cadenas y agentes.
+
+### ¿Qué puedes monitorizar?
+
+* Ejecuciones de cadenas y agentes.
+* Inputs/outputs de cada llamada al modelo.
+* Tiempo de respuesta por componente.
+* Errores y fallos en herramientas o nodos.
+
+### Configuración mínima
+
+1. Crea una cuenta en LangSmith y genera una API Key.
+2. Define estas variables de entorno en tu terminal (con `env2` activo):
+
+#### Linux / macOS
+
+```bash
+export LANGCHAIN_TRACING_V2=true
+export LANGCHAIN_API_KEY="tu_api_key"
+export LANGCHAIN_PROJECT="agenticAI"
+```
+
+#### Windows PowerShell
+
+```powershell
+$env:LANGCHAIN_TRACING_V2="true"
+$env:LANGCHAIN_API_KEY="tu_api_key"
+$env:LANGCHAIN_PROJECT="agenticAI"
+```
+
+Con esto, las ejecuciones de tus scripts con LangChain quedarán registradas en LangSmith
+para su análisis y depuración.
+
+---
+
 ## 🏃‍♂️ Ejecución de Scripts
 
 Para ejecutar el script `ex1.py` ubicado dentro de la carpeta `agent/`, puedes hacerlo de dos formas:
