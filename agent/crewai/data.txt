@@ -1,0 +1,19 @@
+Agentic AI refers to artificial intelligence systems that can act autonomously to achieve specific goals. Unlike traditional AI systems that simply respond to inputs, agentic AI can make decisions, plan actions, and execute tasks without constant human intervention.
+ 
+A key feature of agentic AI is its ability to perceive its environment, reason about possible actions, and take steps to achieve desired outcomes. These systems often use feedback loops to continuously improve their performance over time.
+ 
+Agentic AI systems are commonly built using multiple components such as perception modules, decision-making engines, and action modules. In modern implementations, large language models (LLMs) play a central role in reasoning and planning.
+ 
+One popular design pattern in agentic AI is the ReAct (Reasoning + Acting) pattern, where the system alternates between thinking (reasoning) and taking actions. Another approach is the planning pattern, where the agent first creates a plan and then executes it step by step.
+ 
+Real-world applications of agentic AI include self-driving cars, which can perceive their surroundings and make driving decisions in real time. AI-powered customer support agents can handle user queries, escalate issues, and learn from interactions. Automated trading systems can analyze market data and execute trades based on predefined strategies.
+ 
+In software development, agentic AI is used to build coding assistants that can write, debug, and optimize code. These systems can also integrate with external tools such as APIs, databases, and search engines.
+ 
+Retrieval-Augmented Generation (RAG) is often used with agentic AI systems to improve accuracy. In RAG, the system retrieves relevant information from a knowledge base and uses it to generate better responses. This helps reduce hallucinations and ensures that outputs are grounded in real data.
+ 
+Vector databases like FAISS are commonly used in RAG systems. They store embeddings (numerical representations of text) and allow efficient similarity search to find relevant documents.
+ 
+Agentic AI systems can also include memory components. Short-term memory helps track the current conversation, while long-term memory stores past interactions and learned knowledge. This enables the system to improve over time and provide more personalized responses.
+ 
+Despite their advantages, agentic AI systems face challenges such as reliability, safety, and alignment. Ensuring that these systems behave as intended is an active area of research.

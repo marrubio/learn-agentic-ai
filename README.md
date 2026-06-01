@@ -133,6 +133,19 @@ mientras que LangGraph te da una orquestación más robusta para flujos complejo
 
 ---
 
+## 🧩 Introducción Breve a phidata
+
+phidata es un framework para crear agentes de IA con herramientas, memoria y componentes reutilizables.
+Está pensado para construir asistentes que puedan razonar, consultar fuentes externas y ejecutar tareas de forma estructurada.
+
+### ¿Cuándo conviene usarlo?
+
+* Cuando quieres montar agentes con herramientas y contexto persistente.
+* Cuando necesitas integrar modelos, búsquedas, APIs o bases de datos con menos código repetitivo.
+* Cuando buscas una capa práctica para prototipar asistentes más completos.
+
+---
+
 ## 👥 Introducción Breve a CrewAI
 
 CrewAI es un framework para orquestar múltiples agentes de IA que colaboran entre sí
