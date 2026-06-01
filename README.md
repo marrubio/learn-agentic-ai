@@ -133,6 +133,53 @@ mientras que LangGraph te da una orquestación más robusta para flujos complejo
 
 ---
 
+## 👥 Introducción Breve a CrewAI
+
+CrewAI es un framework para orquestar múltiples agentes de IA que colaboran entre sí
+con roles, objetivos y tareas definidas. Es útil cuando un solo agente no basta y
+quieres dividir el trabajo en especialidades (por ejemplo: investigación, redacción,
+validación y revisión).
+
+### ¿Cuándo conviene usarlo?
+
+* Cuando necesitas colaboración entre varios agentes con responsabilidades claras.
+* Cuando quieres ejecutar procesos por etapas y coordinar resultados parciales.
+* Cuando buscas flujos más estructurados para tareas complejas o de mayor alcance.
+
+CrewAI puede complementarse con LangChain/LangGraph: CrewAI define la colaboración
+entre agentes, mientras que LangChain/LangGraph pueden cubrir la lógica de cadenas,
+herramientas y orquestación de flujos internos.
+
+### Instalacion
+
+Para usar **CrewAI**, se requiere un entorno virtual con **Python 3.12**.
+Si tienes varias versiones instaladas, crea `env2` con este comando:
+
+```bash
+py -3.12 -m venv env2
+```
+
+UV Install
+
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+uv tool install crewai
+```
+Entorno Python:
+
+```bash
+python -m venv env2
+ 
+env2\Scripts\activate.bat
+pip install crewai
+pip install "crewai[litellm]"
+ 
+ 
+pip install crewai crewai-tools langchain-ollama
+```
+
+---
+
 ## 🏃‍♂️ Ejecución de Scripts
 
 Para ejecutar el script `ex1.py` ubicado dentro de la carpeta `agent/`, puedes hacerlo de dos formas:
